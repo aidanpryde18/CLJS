@@ -2,6 +2,6 @@
 
 This repo is for all my course files completed through treehouse.com
 
-New line
 
-of text
+
+New line of code
