@@ -3,7 +3,7 @@
 
 //Create a select and append to #menu div
 var $select = $("<select></select>");
-$("#menu").append($select);
+$('#menu').append($select);
 
 //Cycle over menu links
 $("#menu a").each(function(){
@@ -24,7 +24,7 @@ $("#menu a").each(function(){
 	
 	
 
-//Bild change listener to the select
+//Build change listener to the select
 $select.change(function(){
 	window.location = $select.val();
 });
